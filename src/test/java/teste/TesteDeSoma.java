@@ -10,7 +10,7 @@ public class TesteDeSoma {
     public void testeSoma() {
         Soma soma = new Soma();
         double resultado = soma.soma(1.0, 1.0);
-        Assert.assertEquals(resultado, 3.0, 0);
+        Assert.assertEquals(resultado, 2.0, 0);
     }
 
 }
