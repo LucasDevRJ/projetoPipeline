@@ -9,8 +9,8 @@ public class TesteDeSoma {
     @Test
     public void testeSoma() {
         Soma soma = new Soma();
-        double resultado = soma.soma(2.0, 3.0);
-        Assert.assertEquals(resultado, 5.0, 0);
+        double resultado = soma.soma(1.0, 1.0);
+        Assert.assertEquals(resultado, 3.0, 0);
     }
 
 }
